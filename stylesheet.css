@@ -4,7 +4,12 @@
     box-sizing: border-box;
     padding: 0%;
     Margin:0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
 }
+
+
+   
+
 
 .navbar {
 
@@ -51,23 +56,167 @@ height: 100px;
 }
 
 .first-section {
-
+    display: flex;
     background-color: #1f2937 ;
-
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    padding-top:100px;
+    justify-content: space-between;
+  
+    
 }
 
-.main-title {
+.left-side{
 
+display: block;
+justify-content: space-between;
+width: 700px;
+
+}
+.main-title {
+    max-width: 500px;
     color: #F9FAF8;
-    font-size: 30px;
+    font-size: 48px;
     font-weight: bolder;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 5px;
+    
 }
 
 .main-paragraph {
-
+max-width: 500px;
+flex-wrap: wrap;
 font-size: 18px;
 color: #e5e7eb;
+padding: 5px;
+
+
 
 }
 
+.main-button {
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    padding: 5px;
+    
+    
+}
+button:hover {
+
+    color: black;
+
+}
+
+
+ .main-image {
+
+    display: flex;
+    width: 500px;
+    border-radius: 20px;
+
+}
+
+.main-title .main-paragraph .main-button {
+
+    justify-content: center;
+}
+
+
+
+.information-title {
+
+text-align: center;
+color:#1f2937;
+font-size: 36px;
+padding: 50px;
+
+
+}
+
+.second-section {
+
+    display: flex;
+    justify-content: space-between;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.second-section img {
+    
+    
+    height: 180px;
+    width: 180px;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: #3882f6;
+    border-style: solid;
+   
+    
+}
+
+.second-section p {
+
+max-width: 180px;
+color: grey;
+}
+
+.Quote {
+display: flex;
+background-color: #e5e7eb;
+font-size: 36px;
+justify-content: center;
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 150px;
+padding-bottom: 150px;
+font-weight: 100;
+
+}
+
+.quote-author {
+background-color: #e5e7eb;
+margin-left: 600px;
+font-weight: bold;
+}
+
+
+.footer {
+    display: flex;
+background-color:#3882F6 ;
+margin: 100px;
+color: white;
+justify-content: space-between;
+padding: 60px;
+border-radius: 20px;
+
+}
+
+.footer-right button{
+display: flex;
+height: 50px;
+width: 150px;
+color: white;
+background-color: #3882F6 ;
+border-color: white;
+border-width: 2px;
+border-radius:10px;
+border-style:solid;
+font-size: 20px;
+font-weight: bold;
+justify-content: center;
+align-items: center;
+
+}
+    
+
+.footer-right button:hover {
+
+    color: black;
+
+}
